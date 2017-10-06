@@ -25,3 +25,23 @@ C:\Users\lmb_g\ControlDeGastos (master)
    run the app:
      > SET DEBUG=historia:* & npm start
 
+
+
+Adquisicion
+{
+   fecha_de_obtencion: date,
+   vence : boolean, /* indica la fecha en la que vence el */
+   fecha_de_vencimiento: date /* indica la fecha en la que se vence el articulo */
+   monto: money
+   foto: jpg, png, svg, gif.
+   video: video donde se muestre la adquisicion;
+   disponible: indica si aun tengo el bien en cuestion
+}
+
+listar las adquisiciones
+
+post - Historial/Guardar/Adquisicion/<>
+put  - Historial/Actualizar/Adquisicion/{parametros}
+post - Historial/Eliminar/Adquisicion/id
+get  - Historial/Listar/Adquisicion/{pagina : 1, cantidad : 10}
+get  - Historial/Mostrar/Adquisicion/id
