@@ -21,3 +21,5 @@ $ DEBUG=myapp:* npm start
 > npm install
 > set DEBUG=myapp:* & npm start
 ```
+
+![Image of Mariposa](https://raw.githubusercontent.com/luismiguelbravo/ControlDeGastos/master/HISTORIA/public/images/mariposa.gif)
