@@ -1,0 +1,27 @@
+C:\Users\lmb_g\ControlDeGastos (master)
+λ express --view=pug HISTORIA
+
+   create : HISTORIA
+   create : HISTORIA/package.json
+   create : HISTORIA/app.js
+   create : HISTORIA/routes
+   create : HISTORIA/routes/index.js
+   create : HISTORIA/routes/users.js
+   create : HISTORIA/views
+   create : HISTORIA/views/index.pug
+   create : HISTORIA/views/layout.pug
+   create : HISTORIA/views/error.pug
+   create : HISTORIA/public
+   create : HISTORIA/bin
+   create : HISTORIA/bin/www
+   create : HISTORIA/public/images
+   create : HISTORIA/public/javascripts
+   create : HISTORIA/public/stylesheets
+   create : HISTORIA/public/stylesheets/style.css
+
+   install dependencies:
+     > cd HISTORIA && npm install
+
+   run the app:
+     > SET DEBUG=historia:* & npm start
+
